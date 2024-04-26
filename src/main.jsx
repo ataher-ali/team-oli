@@ -15,6 +15,7 @@ import Pricing from './Pages/Pricing/Pricing.jsx';
 import Portfolio from './Pages/Portfolio/Portfolio.jsx';
 import Faq from './Pages/FAQ/Faq.jsx';
 import ErrorPage from './Pages/404/ErrorPage.jsx';
+import Reviews from './Pages/Reviews/Reviews.jsx';
 
 
 const router = createBrowserRouter([
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
       {
         path:"/FAQ",
         element: <Faq></Faq>
+      },
+      {
+        path:"/Reviews",
+        element: <Reviews></Reviews>
       },
 
     ]

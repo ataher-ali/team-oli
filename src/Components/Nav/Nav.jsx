@@ -24,7 +24,7 @@ function Nav() {
               <div className="hidden lg:flex gap-8 ">
                 <Link to='/'>Home</Link>
                 <Link to='/About'>About</Link>
-                <Link to="/Services">Services</Link>
+                <a href="/#Services">Services</a>
                 <Link to="/Portfolio">Portfolio</Link>
                 <Link to="/Pricing">Pricing</Link>
                 <Link to="/Contact">Contact</Link>
@@ -53,7 +53,7 @@ function Nav() {
             <div className="flex flex-col gap-8 font-bold tracking-wider">
               <Link to='/'>Home</Link>
               <Link to='/About'>About</Link>
-              <Link to="/Services">Services</Link>
+              <Link to="#Services">Services</Link>
               <Link to="/Portfolio">Portfolio</Link>
               <Link to="/Pricing">Pricing</Link>
               <Link to="/Contact">Contact</Link>

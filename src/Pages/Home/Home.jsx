@@ -1,12 +1,18 @@
 import React from 'react';
 import HeroCompo from '../../Components/Home Compo/HeroCompo';
-import Testimonial from '../../Components/Home Compo/Testimonial';
+import HomeTestimonial from '../../Components/Home Compo/HomeTestimonial';
+import HomeAbout from '../../Components/Home Compo/HomeAbout';
+import HomeServices from '../../Components/Home Compo/HomeServices';
 
 const Home = () => {
     return (
         <div>
             <HeroCompo></HeroCompo>
-            <Testimonial></Testimonial>
+            <HomeServices></HomeServices>
+            <div className='lg:mx-40 md:mx-24'>
+            <HomeAbout></HomeAbout>
+            </div>
+            <HomeTestimonial></HomeTestimonial>
         </div>
     );
 };
