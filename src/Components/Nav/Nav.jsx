@@ -24,7 +24,7 @@ function Nav() {
               <div className="hidden lg:flex gap-8 ">
                 <Link to='/'>Home</Link>
                 <Link to='/About'>About</Link>
-                <a href="/#Services">Services</a>
+                <a href="/Services">Services</a>
                 <Link to="/Portfolio">Portfolio</Link>
                 <Link to="/Pricing">Pricing</Link>
                 <Link to="/Contact">Contact</Link>
@@ -68,7 +68,7 @@ function Nav() {
             <div className="flex flex-col gap-8  font-bold tracking-wider">
               <Link onClick={() => setToggleMenu()} className="mt-4" to='/'>Home</Link>
               <Link onClick={() => setToggleMenu()} to='/About'>About</Link>
-              <Link onClick={() => setToggleMenu()} to="#Services">Services</Link>
+              <Link onClick={() => setToggleMenu()} to="/Services">Services</Link>
               <Link onClick={() => setToggleMenu()} to="/Portfolio">Portfolio</Link>
               <Link onClick={() => setToggleMenu()} to="/Pricing">Pricing</Link>
               <Link onClick={() => setToggleMenu()} to="/Contact">Contact</Link>

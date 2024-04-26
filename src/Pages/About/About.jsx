@@ -1,9 +1,13 @@
 import React from 'react';
+import DocumentTitle from 'react-document-title';
 
 const About = () => {
     return (
         <div>
-            About 
+            <DocumentTitle title='Graphicaloy | About'>
+
+            </DocumentTitle>
+            About
         </div>
     );
 };

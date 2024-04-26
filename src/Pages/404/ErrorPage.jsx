@@ -1,9 +1,12 @@
 import React from 'react';
+import DocumentTitle from 'react-document-title';
 import { Link } from 'react-router-dom';
 
 const ErrorPage = () => {
     return (
         <div>
+            <DocumentTitle title='Graphicaloy | 404! '>
+            </DocumentTitle>
             <div className="grid h-screen place-content-center bg-white px-4">
                 <div className="text-center">
                     <h1 className="text-9xl font-black text-gray-200">404</h1>
