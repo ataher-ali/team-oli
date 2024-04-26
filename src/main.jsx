@@ -14,6 +14,7 @@ import Services from './Pages/Services/Services.jsx';
 import Pricing from './Pages/Pricing/Pricing.jsx';
 import Portfolio from './Pages/Portfolio/Portfolio.jsx';
 import Faq from './Pages/FAQ/Faq.jsx';
+import ErrorPage from './Pages/404/ErrorPage.jsx';
 
 
 const router = createBrowserRouter([
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
 
     ]
   },
+  {
+    path:"/*",
+    element: <ErrorPage></ErrorPage>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
