@@ -22,7 +22,7 @@ const Pricing = () => {
         </p>
 
         <a
-          className="mt-4 block rounded border border-red-600 bg-red-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-red-600 focus:outline-none focus:ring active:text-red-500 sm:mt-6"
+          className="mt-4 block rounded border border-yellow-500 bg-yellow-400 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-yellow-600 focus:outline-none focus:ring active:text-red-500 sm:mt-6"
           href="#"
         >
           Get Started
@@ -142,7 +142,7 @@ const Pricing = () => {
         </p>
 
         <a
-          className="mt-4 block rounded border border-red-600 bg-red-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-red-600 focus:outline-none focus:ring active:text-red-500 sm:mt-6"
+          className="mt-4 block rounded border border-yellow-500 bg-yellow-400 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-yellow-600 focus:outline-none focus:ring active:text-red-500 sm:mt-6"
           href="#"
         >
           Get Started
@@ -261,7 +261,7 @@ const Pricing = () => {
           <span className="text-sm font-medium text-gray-700">/month</span>
         </p>
         <a
-          className="mt-4 block rounded border border-red-600 bg-red-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-red-600 focus:outline-none focus:ring active:text-red-500 sm:mt-6"
+          className="mt-4 block rounded border border-yellow-500 bg-yellow-400 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-yellow-600 focus:outline-none focus:ring active:text-red-500 sm:mt-6"
           href="#"
         >
           Get Started
