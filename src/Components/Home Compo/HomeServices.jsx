@@ -44,7 +44,7 @@ const HomeServices = () => {
           className="block rounded-xl border border-cyan-950 hover:bg-yellow-200 shadow p-4  hover:border-black hover:ring-1 hover:ring-yellow-200 focus:outline-none focus:ring"
           href="#"
         >
-          <span className="inline-block rounded-lg border border-yellow-300 bg-gray-50 p-3">
+          <span className="inline-block rounded-lg border  bg-gray-50 p-3">
             <svg
               className="h-6 w-6"
               fill="none"
@@ -75,7 +75,7 @@ const HomeServices = () => {
           className="block rounded-xl border border-cyan-950 hover:bg-yellow-200 shadow p-4  hover:border-black hover:ring-1 hover:ring-yellow-200 focus:outline-none focus:ring"
           href="#"
         >
-          <span className="inline-block rounded-lg border border-yellow-300 bg-gray-50 p-3">
+          <span className="inline-block rounded-lg border  bg-gray-50 p-3">
             <svg
               className="h-6 w-6"
               fill="none"
@@ -106,7 +106,7 @@ const HomeServices = () => {
           className="block rounded-xl border border-cyan-950 hover:bg-yellow-200 shadow p-4  hover:border-black hover:ring-1 hover:ring-yellow-200 focus:outline-none focus:ring"
           href="#"
         >
-          <span className="inline-block rounded-lg border border-yellow-300 bg-gray-50 p-3">
+          <span className="inline-block rounded-lg border  bg-gray-50 p-3">
             <svg
               className="h-6 w-6"
               fill="none"
@@ -137,7 +137,7 @@ const HomeServices = () => {
           className="block rounded-xl border border-cyan-950 hover:bg-yellow-200 shadow p-4  hover:border-black hover:ring-1 hover:ring-yellow-200 focus:outline-none focus:ring"
           href="#"
         >
-          <span className="inline-block rounded-lg border border-yellow-300 bg-gray-50 p-3">
+          <span className="inline-block rounded-lg border  bg-gray-50 p-3">
             <svg
               className="h-6 w-6"
               fill="none"
@@ -168,7 +168,7 @@ const HomeServices = () => {
           className="block rounded-xl border border-cyan-950 hover:bg-yellow-200 shadow p-4  hover:border-black hover:ring-1 hover:ring-yellow-200 focus:outline-none focus:ring"
           href="#"
         >
-          <span className="inline-block rounded-lg border border-yellow-300 bg-gray-50 p-3">
+          <span className="inline-block rounded-lg border  bg-gray-50 p-3">
             <svg
               className="h-6 w-6"
               fill="none"
@@ -199,7 +199,7 @@ const HomeServices = () => {
           className="block rounded-xl border border-cyan-950 hover:bg-yellow-200 shadow p-4  hover:border-black hover:ring-1 hover:ring-yellow-200 focus:outline-none focus:ring"
           href="#"
         >
-          <span className="inline-block rounded-lg border border-yellow-300 bg-gray-50 p-3">
+          <span className="inline-block rounded-lg border  bg-gray-50 p-3">
             <svg
               className="h-6 w-6"
               fill="none"
