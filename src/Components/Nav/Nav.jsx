@@ -5,7 +5,7 @@ function Nav() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="app">
+    <div className="app z-10">
       <nav>
         <div className="max-w-7xl mx-auto">
           <div className="flex mx-auto justify-between w-5/6 ">
@@ -28,14 +28,8 @@ function Nav() {
                 <Link to="/Portfolio">Portfolio</Link>
                 <Link to="/Pricing">Pricing</Link>
                 <Link to="/Contact">Contact</Link>
-              </div>
-              <div className="">
-              <button>
-
-                Book a Meeting
-
-              </button>
-            </div>
+    
+                            </div>
             </div>
 
             {/* secondary */}
