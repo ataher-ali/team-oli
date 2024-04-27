@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 const HomeGallery = () => {
     return (
         <div className='sm:mx-4'>
+                        <h2 className="my-4 md:my-6 text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+       Our  
+       <span className='ms-2 text-yellow-600'>
+         Projects
+       </span>
+    </h2>
             <Link target='_blank' to="/">
 
 
@@ -58,6 +64,7 @@ const HomeGallery = () => {
             </Link>
 
             <div className=' w-100 flex justify-center'>
+
                         <Link className=" my-3 md:my-10 group relative inline-block focus:outline-none focus:ring" to="/About">
                             <span
                                 className="absolute inset-0 translate-x-0 translate-y-0 rounded-lg bg-yellow-300 transition-transform group-hover:translate-x-1.5 group-hover:translate-y-1.5"
