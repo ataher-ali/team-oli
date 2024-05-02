@@ -65,7 +65,7 @@ const HomeGallery = () => {
 
             <div className=' w-100 flex justify-center'>
 
-                        <Link className=" my-3 md:my-10 group relative inline-block focus:outline-none focus:ring" to="https://www.behance.net/graphicaloy">
+                        <Link className=" my-3 md:my-10 group relative inline-block focus:outline-none focus:ring" target='_blank' to="https://www.behance.net/graphicaloy">
                             <span
                                 className="absolute inset-0 translate-x-0 translate-y-0 rounded-lg bg-yellow-300 transition-transform group-hover:translate-x-1.5 group-hover:translate-y-1.5"
                             ></span>
