@@ -5,12 +5,12 @@ const HomeFaq = () => {
         <div>
                         <h2 className="my-4 md:my-6 text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
        
-       <span className='ms-2 text-yellow-600'>
+       <span className='ms-2 text-yellow-500'>
          F&Q
        </span>
     </h2>
-            <div className="my-5 divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white">
-                <details className="group p-6 [&_summary::-webkit-details-marker]:hidden" open>
+            <div className="my-5 divide-y divide-gray-100 rounded-xl border border-yellow-100 bg-yellow-50">
+                <details className="group p-6 [&_summary::-webkit-details-marker]:hidden" >
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                         <h2 className="text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
 

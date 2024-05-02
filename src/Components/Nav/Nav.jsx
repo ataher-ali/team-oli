@@ -5,9 +5,9 @@ function Nav() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="app z-10">
+    <div className="app  bg-white w-full ">
       <nav>
-        <div className="max-w-7xl mx-auto">
+        <div className=" mx-auto">
           <div className="flex mx-auto justify-between w-5/6 ">
             {/* Primary menu and logo */}
             <div className="flex items-center gap-16 my-12">

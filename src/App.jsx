@@ -7,7 +7,9 @@ const App = () => {
   return (
     <div>
       <Nav></Nav>
+      <div className='-z-50'>
       <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </div>
   );

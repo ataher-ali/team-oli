@@ -10,9 +10,9 @@ const Pricing = () => {
             <div className='flex justify-center'>
                 <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8">
-                        <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm">
+                        <div className="divide-y divide-gray-200 rounded-2xl border bg-yellow-50 border-yellow-200 shadow-sm">
                             <div className="p-6 sm:px-8">
-                                <h2 className="text-lg font-medium text-gray-900">
+                                <h2 className="text-2xl font-bold  text-yellow-500">
                                     Starter
                                     <span className="sr-only">Plan</span>
                                 </h2>
@@ -34,7 +34,7 @@ const Pricing = () => {
                             </div>
 
                             <div className="p-6 sm:px-8">
-                                <p className="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+                                <p className="text-2xl font-bold  text-yellow-500 sm:text-xl">What's included:</p>
 
                                 <ul className="mt-2 space-y-2 sm:mt-4">
                                     <li className="flex items-center gap-1">
@@ -130,9 +130,9 @@ const Pricing = () => {
                             </div>
                         </div>
 
-                        <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm">
+                        <div className="divide-y divide-gray-200 rounded-2xl border bg-yellow-50 border-yellow-200 shadow-sm">
                             <div className="p-6 sm:px-8">
-                                <h2 className="text-lg font-medium text-gray-900">
+                                <h2 className="text-2xl font-bold  text-yellow-500">
                                     Pro
                                     <span className="sr-only">Plan</span>
                                 </h2>
@@ -154,7 +154,7 @@ const Pricing = () => {
                             </div>
 
                             <div className="p-6 sm:px-8">
-                                <p className="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+                                <p className="text-2xl font-bold  text-yellow-500 sm:text-xl">What's included:</p>
 
                                 <ul className="mt-2 space-y-2 sm:mt-4">
                                     <li className="flex items-center gap-1">
@@ -250,9 +250,9 @@ const Pricing = () => {
                             </div>
                         </div>
 
-                        <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm">
+                        <div className="divide-y divide-gray-200 rounded-2xl border bg-yellow-50 border-yellow-200 shadow-sm">
                             <div className="p-6 sm:px-8">
-                                <h2 className="text-lg font-medium text-gray-900">
+                                <h2 className="text-2xl font-bold  text-yellow-500">
                                     Enterprise
                                     <span className="sr-only">Plan</span>
                                 </h2>
@@ -273,7 +273,7 @@ const Pricing = () => {
                             </div>
 
                             <div className="p-6 sm:px-8">
-                                <p className="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+                                <p className="text-2xl font-bold  text-yellow-500 sm:text-xl">What's included:</p>
 
                                 <ul className="mt-2 space-y-2 sm:mt-4">
                                     <li className="flex items-center gap-1">

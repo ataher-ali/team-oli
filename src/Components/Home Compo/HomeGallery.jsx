@@ -6,7 +6,7 @@ const HomeGallery = () => {
         <div className='sm:mx-4'>
                         <h2 className="my-4 md:my-6 text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
        Our  
-       <span className='ms-2 text-yellow-600'>
+       <span className='ms-2 text-yellow-500'>
          Projects
        </span>
     </h2>
@@ -71,9 +71,24 @@ const HomeGallery = () => {
                             ></span>
 
                             <span
-                                className="relative inline-block border-2 border-current rounded-lg px-8 py-3 text-sm font-bold uppercase tracking-widest"
+                                className=" flex justify-center relative align-middle border-2 border-current rounded-lg px-8 py-3 text-sm font-bold uppercase tracking-widest"
                             >
-                                 More
+                                <span> More</span>
+
+                                 <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className=" mt-1 ms-2 size-4 rtl:rotate-180"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                                />
+                            </svg>
                             </span>
                         </Link>
                     </div>

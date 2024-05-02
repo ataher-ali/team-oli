@@ -25,7 +25,7 @@ const HomeTestimonial = () => {
                             </p>
                         </div>
 
-                        <Link
+                        {/* <Link
                             to="/Reviews"
                             className="mt-6 inline-flex shrink-0 items-center gap-2 rounded-full border hover:bg-yellow-300 border-black px-5 py-3  transition   md:mt-0"
                         >
@@ -45,7 +45,34 @@ const HomeTestimonial = () => {
                                     d="M14 5l7 7m0 0l-7 7m7-7H3"
                                 />
                             </svg>
+                        </Link> */}
+                        <Link className=" my-3 md:my-10 group relative inline-block focus:outline-none focus:ring" to="/Reviews">
+                            <span
+                                className="absolute inset-0 translate-x-0 translate-y-0 rounded-full bg-yellow-300 transition-transform group-hover:translate-x-1.5 group-hover:translate-y-1.5"
+                            ></span>
+
+                            <span
+                                className=" flex justify-center relative align-middle border-2 border-current rounded-full px-8 py-3 text-sm font-bold uppercase tracking-widest"
+                            >
+                                <span> Read all reviews </span>
+
+                                 <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className=" mt-1 ms-2 size-4 rtl:rotate-180"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                                />
+                            </svg>
+                            </span>
                         </Link>
+
                     </div>
 
                     <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3">
