@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeFaq = () => {
     return (
-        <div>
+        <div className='p-4'>
                         <h2 className="my-4 md:my-6 text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
        
        <span className='ms-2 text-yellow-500'>

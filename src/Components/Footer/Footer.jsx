@@ -19,14 +19,16 @@ const Footer = () => {
         <p>
           <span className="text-xs uppercase tracking-wide text-gray-500"> Call us </span>
 
-          <a href="#" className="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
-            0123456789
-          </a>
+          <Link to="http://wa.me/+8801785809246" target='_blank' className="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
+          +8801785809246
+          </Link>
+          <Link to='mailto:graphicaloyagency@gmail.com' target='_blank' className="block text-base mx-2  text-gray-900 hover:opacity-75 ">
+          graphicaloyagency@gmail.com
+          </Link>
         </p>
 
         <ul className="mt-8 space-y-1 text-sm text-gray-700">
-          <li>Monday to Friday: 10am - 5pm</li>
-          <li>Weekend: 10am - 3pm</li>
+         
         </ul>
 
         <ul className="mt-8 flex gap-6">
@@ -76,7 +78,7 @@ const Footer = () => {
               target="_blank"
               className="text-gray-700 transition hover:opacity-75"
             >
-              <span className="sr-only">GitHub</span>
+              <span className="sr-only">Pintrast </span>
 
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" fill-rule="evenodd" clip-rule="evenodd"/></svg>                                                                                                                                                                                                                                                                                                                                                                                                                                          
                                                                                                                                                                                                                                                                                                                                                                                                                                               </Link>
@@ -101,23 +103,22 @@ const Footer = () => {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <Link href="#" className="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </Link>
+              <Link href="/Graphic_Design" className="text-gray-700 transition hover:opacity-75"> Graphic Design </Link>
             </li>
 
             <li>
-              <Link to="#" className="text-gray-700 transition hover:opacity-75"> Company Review </Link>
+              <Link to="/Digital_Marketing" className="text-gray-700 transition hover:opacity-75"> Digital Marketing </Link>
             </li>
 
             <li>
-              <Link href="#" className="text-gray-700 transition hover:opacity-75"> Accounts Review </Link>
+              <Link href="/Presentation_Design" className="text-gray-700 transition hover:opacity-75"> Presentation Design</Link>
             </li>
 
             <li>
-              <Link href="#" className="text-gray-700 transition hover:opacity-75"> HR Consulting </Link>
+              <Link href="/Web_Design" className="text-gray-700 transition hover:opacity-75"> Web Design </Link>
             </li>
-
             <li>
-              <Link href="#" className="text-gray-700 transition hover:opacity-75"> SEO Optimisation </Link>
+              <Link href="/Video_Editing" className="text-gray-700 transition hover:opacity-75"> Video Editing </Link>
             </li>
           </ul>
         </div>
@@ -127,15 +128,18 @@ const Footer = () => {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> About </a>
+              <Link to="/About" className="text-gray-700 transition hover:opacity-75"> About </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
+              <Link to="/Team"  className="text-gray-700 transition hover:opacity-75"> Meet the Team </Link>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
+              <Link to="/Reviews" className="text-gray-700 transition hover:opacity-75"> Accounts Review </Link>
+            </li>
+            <li>
+              <Link to="/Contact" className="text-gray-700 transition hover:opacity-75"> Contact </Link>
             </li>
           </ul>
         </div>
