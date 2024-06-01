@@ -1,14 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-const HeroCompo = () => {
+const HeroCompo2 = () => {
   return (
-    <div  >
-      <section className="bg-yellow-50">
-  <div style={{
+    <div>
+      <div
+        className="hero min-h-screen"
+        style={{
           backgroundImage:
             "url(https://i.ibb.co/qkGP3BY/8809718-removebg.png)",
-        }}  className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"  >
+        }}
+      >
+        <div className="hero-overlay bg-opacity-5"></div>
+        <div   className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"  >
     <div className="mx-auto max-w-xl text-center">
       <h1 className="text-3xl font-extrabold sm:text-5xl">
         Understand User Flow.
@@ -43,9 +47,9 @@ Book a Meeting
     </div>
 {/* <img src="https://i.ibb.co/qkGP3BY/8809718-removebg.png" alt="" /> */}
   </div>
-</section>
+      </div>
     </div>
   );
 };
 
-export default HeroCompo;
+export default HeroCompo2;

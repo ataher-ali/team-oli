@@ -3,15 +3,18 @@ import DocumentTitle from 'react-document-title';
 
 const About = () => {
     return (
-        <div className='pt-10'>
+        <div className='pt-10 '>
             <DocumentTitle title='Graphicaloy | About'>
 
             </DocumentTitle>
             
-            <div className='mx-2 md:mx-20 lg:mx-44 my-6'>
+            <div className='mx-2 md:mx-20 lg:mx-44 my-10'>
 
-            <h2 className='my-6 text-center font-bold text-4xl'>About</h2>
-
+            
+            <div className='md:flex'>
+            <img className='w-1/2 m-4' src="https://i.ibb.co/tPHMLh6/graphic-designer-equipment-doodle-style-6997-3239.jpg" alt="" />
+           <span>
+           <h2 className='my-6 text-center font-bold text-4xl'>About</h2>
             <p className='text-justify text-xl font-extralight '>
                 Graphicaloy provides industry-leading strategic, creative, and technological solutions to help you overcome business challenges and develop a successful brand. We design full-service solutions that meet all of your requirements.
                 Outsourcing your social media design needs will save you time and money!
@@ -22,6 +25,8 @@ const About = () => {
                 We will provide you with a complete social media graphic solution at an affordable price!!
                 Undertake you want to do social media graphic design for your company?
             </p>
+            </span> 
+            </div>  
             </div>
         </div>
     );
