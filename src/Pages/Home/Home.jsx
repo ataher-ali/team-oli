@@ -13,7 +13,7 @@ const Home = () => {
             <DocumentTitle title='Graphicaloy'>
                 
             </DocumentTitle>
-
+        
             <HeroCompo></HeroCompo>
             <HomeServices></HomeServices>
             <div className='lg:mx-40 md:mx-24'>
