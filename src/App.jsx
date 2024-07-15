@@ -10,7 +10,7 @@ const App = () => {
       <div className='-z-50'>
       <Outlet></Outlet>
       </div>
-      <Footer></Footer>
+      
     </div>
   );
 };
