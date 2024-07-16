@@ -1,5 +1,6 @@
 import React from 'react';
 import DocumentTitle from 'react-document-title';
+import OurClients from '../../Components/HomeCompo/OurClients/OurClients';
 
 const About = () => {
     return (
@@ -28,6 +29,8 @@ const About = () => {
             </span> 
             </div>  
             </div>
+
+            <OurClients></OurClients>
         </div>
     );
 };

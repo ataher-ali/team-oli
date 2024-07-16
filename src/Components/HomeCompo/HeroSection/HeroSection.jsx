@@ -1,0 +1,50 @@
+import React from 'react';
+import { MdMail } from "react-icons/md";
+import { Link } from 'react-router-dom';
+import Type from './Type/Type';
+import { FaBehanceSquare, FaFacebookSquare, FaLinkedin } from 'react-icons/fa';
+
+const HeroSection = () => {
+    return (
+        <div className='h-flex'>
+                          <section className="relative bg-gray-100 py-20">
+      {/* Background vector graphics */}
+      {/* <img src={vectorGraphic1} alt="Vector Graphic 1" className="absolute top-0 left-0 h-64 w-64 transform translate-x-20 -translate-y-20 opacity-25" /> */}
+      {/* <img src={vectorGraphic2} alt="Vector Graphic 2" className="absolute bottom-0 right-0 h-64 w-64 transform -translate-x-20 translate-y-20 opacity-25" /> */}
+      
+      <div className="container mx-auto px-4 relative ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="md:col-span-1">
+            <img src={"https://shorturl.at/qKrwQ"} alt="Portfolio Hero" className="rounded-lg shadow-lg" />
+          </div>
+          <div className="md:col-span-1">
+            <div className="text-center md:text-left">
+            <h3 className='font-bold text-2xl'>Hello, I'm</h3>
+              <h2 className="text-7xl font-bold text-gray-800 mb-8"> Sah Oli Ullah</h2>
+
+              <div className='h-10'>
+
+                <Type/>
+              </div>
+              
+              {/* <p className="text-lg text-gray-600 mb-12">Explore my work and skills.</p> */}
+              <div className="flex justify-center my-10 md:justify-start">
+
+                <a href="#projects" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full shadow-lg">About Us</a>
+              </div>
+              <div className='m-4 gap-6 mt-8 flex items-center '>
+                <Link to=""className='  hover:opacity-80' ><FaLinkedin size={36}/></Link>
+                <Link to=""className='  hover:opacity-80' ><FaFacebookSquare size={36}/></Link>
+                <Link to=""className='  hover:opacity-80' ><FaBehanceSquare size={36}/></Link>
+                <Link to=""className='   hover:opacity-80' ><MdMail size={38}/></Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+    );
+};
+
+export default HeroSection;

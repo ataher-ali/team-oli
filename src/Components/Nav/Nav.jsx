@@ -19,7 +19,7 @@ function Nav() {
                   to="/"
                   className="flex gap-1 font-bold text-gray-700 items-center "
                 > 
-                  <span className="font-extrabold text-3xl" >⚫️li Ullah</span>
+                  <span className="font-extrabold text-3xl" >Sah Oli Ullah</span>
                 </Link>
               </div>
               {/* primary */}
