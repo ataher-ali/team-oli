@@ -10,6 +10,8 @@ import Home from './Pages/Home/Home.jsx';
 import About from './Pages/About/About.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
 import ErrorPage from './Pages/404/ErrorPage.jsx';
+import Team from './Pages/Team/Team.jsx';
+import Archive from './Pages/Archive/Archive.jsx';
 
 
 
@@ -27,8 +29,16 @@ const router = createBrowserRouter([
         element: <About></About>
       },
       {
-        path:"/Contact",
+        path:"/contact",
         element: <Contact></Contact>
+      },
+      {
+        path:"/team",
+        element: <Team></Team>
+      },
+      {
+        path:"/archive",
+        element: <Archive></Archive>
       },
 
     ]

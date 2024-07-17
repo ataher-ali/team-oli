@@ -1,6 +1,7 @@
 import React from 'react';
 import DocumentTitle from 'react-document-title';
-import OurClients from '../../Components/HomeCompo/OurClients/OurClients';
+import Education from '../../Components/About/Education';
+import Experience from '../../Components/About/Experience';
 
 const About = () => {
     return (
@@ -9,11 +10,11 @@ const About = () => {
 
             </DocumentTitle>
             
-            <div className='mx-2 md:mx-20 lg:mx-44 my-10'>
+            <div className='mx-4 md:mx-20 lg:mx-44 my-10'>
 
             
-            <div className='md:flex'>
-            <img className='w-1/2 m-4' src="https://i.ibb.co/tPHMLh6/graphic-designer-equipment-doodle-style-6997-3239.jpg" alt="" />
+            <div className='md:flex justify-center'>
+            <img className='w-fit md:w-1/2 m-4' src="https://i.ibb.co/tPHMLh6/graphic-designer-equipment-doodle-style-6997-3239.jpg" alt="" />
            <span>
            <h2 className='my-6 text-center font-bold text-4xl'>About</h2>
             <p className='text-justify text-xl font-extralight '>
@@ -29,8 +30,12 @@ const About = () => {
             </span> 
             </div>  
             </div>
+            <div className='lg:mx-40 mx-4  '>
 
-            <OurClients></OurClients>
+            <Education></Education>
+            <Experience></Experience>
+
+            </div>
         </div>
     );
 };

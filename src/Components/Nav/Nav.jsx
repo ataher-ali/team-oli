@@ -28,8 +28,8 @@ function Nav() {
                 
                 <Link to='/about'> <h1 className="text-lg">About </h1></Link>
                 <Link to="/archive"> <h1 className="text-lg">Archive </h1></Link>
-                <Link to='/pervices'> <h1 className="text-lg">Services </h1></Link>
-                <Link to="/portfolio"> <h1 className="text-lg">Portfolio </h1></Link>
+                {/* <Link to='/pervices'> <h1 className="text-lg">Services </h1></Link> */}
+                <Link to="/team"> <h1 className="text-lg"> Team </h1></Link>
                 <Link to="/contact"> <h1 className="text-lg">Contact </h1></Link>
               </div>
               </div>
@@ -72,7 +72,8 @@ function Nav() {
               <Link onClick={() => setToggleMenu()} className="mt-4" to='/'>Home</Link>
               <Link onClick={() => setToggleMenu()} to='/about'>About</Link>
               <Link onClick={() => setToggleMenu()} to="/archive">Archive</Link>
-              <Link onClick={() => setToggleMenu()} to="/services">Services</Link>
+              {/* <Link onClick={() => setToggleMenu()} to="/services">Services</Link> */}
+              <Link onClick={() => setToggleMenu()} to="/team">Teams</Link>
               <Link onClick={() => setToggleMenu()} to="/contact">Contact</Link>
             </div>
           </div>

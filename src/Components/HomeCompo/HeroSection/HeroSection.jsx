@@ -2,12 +2,14 @@ import React from 'react';
 import { MdMail } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import Type from './Type/Type';
-import { FaBehanceSquare, FaFacebookSquare, FaLinkedin } from 'react-icons/fa';
+import { FaBehanceSquare, FaFacebookSquare, FaInfoCircle, FaLinkedin } from 'react-icons/fa';
+import { RiTeamFill } from 'react-icons/ri';
+
 
 const HeroSection = () => {
     return (
-        <div className='h-flex'>
-                          <section className="relative bg-gray-100 py-20">
+        <div className=' bg-gray-100 py-20 '>
+                          <section className="relative    lg:px-40">
       {/* Background vector graphics */}
       {/* <img src={vectorGraphic1} alt="Vector Graphic 1" className="absolute top-0 left-0 h-64 w-64 transform translate-x-20 -translate-y-20 opacity-25" /> */}
       {/* <img src={vectorGraphic2} alt="Vector Graphic 2" className="absolute bottom-0 right-0 h-64 w-64 transform -translate-x-20 translate-y-20 opacity-25" /> */}
@@ -28,9 +30,17 @@ const HeroSection = () => {
               </div>
               
               {/* <p className="text-lg text-gray-600 mb-12">Explore my work and skills.</p> */}
-              <div className="flex justify-center my-10 md:justify-start">
+              <div className="flex justify-center gap-3 my-10 md:justify-start">
 
-                <a href="#projects" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full shadow-lg">About Us</a>
+                <Link to="/about" className="bg-slate-900 w-fit flex justify-center items-center gap-2 hover:bg-slate-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg">
+                <FaInfoCircle />
+                <span>About</span>
+                </Link>
+
+                <Link to="/about" className="border border-slate-900 flex items-center justify-center w-fit gap-2 hover:text-white hover:bg-slate-600 text-slate-800 font-bold py-3 px-6 rounded-lg shadow-lg">
+                <RiTeamFill />
+                <span> Meet Team</span>
+                </Link>
               </div>
               <div className='m-4 gap-6 mt-8 flex items-center '>
                 <Link to=""className='  hover:opacity-80' ><FaLinkedin size={36}/></Link>

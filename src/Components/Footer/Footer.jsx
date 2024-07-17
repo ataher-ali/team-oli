@@ -1,176 +1,194 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
-    return (
-        <div>
-            <footer className="bg-white lg:grid lg:grid-cols-5">
-  <div className="relative block h-32 lg:col-span-2 lg:h-full">
-    <img
-      src="https://cqsacademy.com/wp-content/uploads/2021/10/graphic-designer-job-description.jpg"
-      alt=""
-      className="absolute inset-0 h-full w-full object-cover"
-    />
-  </div>
+  return (
+    <div>
+      {/*
+  Heads up! 👋
 
-  <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
-    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-      <div>
-        <p>
-          <span className="text-xs uppercase tracking-wide text-gray-500"> Call us </span>
+  Plugins:
+    - @tailwindcss/forms
+*/}
 
-          <Link to="http://wa.me/+8801785809246" target='_blank' className="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
-          +8801785809246
-          </Link>
-          <Link to='mailto:graphicaloyagency@gmail.com' target='_blank' className="block text-base mx-2  text-gray-900 hover:opacity-75 ">
-          graphicaloyagency@gmail.com
-          </Link>
+<footer className="bg-white">
+  <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
+
+
+    <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
+      <div className="mx-auto max-w-sm lg:max-w-none">
+        <p className="mt-4 text-center text-gray-500 lg:text-left lg:text-lg">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium natus quod eveniet
+          aut perferendis distinctio iusto repudiandae, provident velit earum?
         </p>
 
-        <ul className="mt-8 space-y-1 text-sm text-gray-700">
-         
-        </ul>
+        <div className="mt-6 flex justify-center gap-4 lg:justify-start">
+          <a
+            className="text-gray-700 transition hover:text-gray-700/75"
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="sr-only"> Facebook </span>
 
-        <ul className="mt-8 flex gap-6">
-          <li>
-            <Link
-              to="https://www.facebook.com/graphicaloy"
-              rel="noreferrer"
-              target="_blank"
-              className="text-gray-700 transition hover:opacity-75"
-            >
-              <span className="sr-only">Facebook</span>
+            <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fillRule="evenodd"
+                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </a>
 
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
-            </Link>
-          </li>
+          <a
+            className="text-gray-700 transition hover:text-gray-700/75"
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="sr-only"> Instagram </span>
 
-          <li>
-            <Link
-              to="https://www.instagram.com/graphicaloy"
-              rel="noreferrer"
-              target="_blank"
-              className="text-gray-700 transition hover:opacity-75"
-            >
-              <span className="sr-only">Instagram</span>
+            <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fillRule="evenodd"
+                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </a>
 
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-            </Link>
-          </li>
+          <a
+            className="text-gray-700 transition hover:text-gray-700/75"
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="sr-only"> Twitter </span>
 
-          <li>
-            <Link
-              to="https://twitter.com/graphicaloy"
-              rel="noreferrer"
-              target="_blank"
-              className="text-gray-700 transition hover:opacity-75"
-            >
-              <span className="sr-only">Twitter</span>
+            <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+              />
+            </svg>
+          </a>
 
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
-            </Link>
-          </li>
+          <a
+            className="text-gray-700 transition hover:text-gray-700/75"
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="sr-only"> GitHub </span>
 
-          <li>
-            <Link
-              to="https://pin.it/6LAm1ISE6"
-              rel="noreferrer"
-              target="_blank"
-              className="text-gray-700 transition hover:opacity-75"
-            >
-              <span className="sr-only">Pintrast </span>
+            <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fillRule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </a>
 
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" fill-rule="evenodd" clip-rule="evenodd"/></svg>                                                                                                                                                                                                                                                                                                                                                                                                                                          
-                                                                                                                                                                                                                                                                                                                                                                                                                                              </Link>
-          </li>
+          <a
+            className="text-gray-700 transition hover:text-gray-700/75"
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="sr-only"> Dribbble </span>
 
-          <li>
-            <Link
-              to="https://www.linkedin.com/company/graphicaloy/"
-              rel="noreferrer"
-              target="_blank"
-              className="text-gray-700 transition hover:opacity-75"
-            >
-              <span className="sr-only">Linkdin</span>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></Link>
-          </li>
-        </ul>
+            <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fillRule="evenodd"
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
         <div>
-          <p className="font-medium text-gray-900">Services</p>
+          <strong className="font-medium text-gray-900"> Services </strong>
 
-          <ul className="mt-6 space-y-4 text-sm">
+          <ul className="mt-6 space-y-1">
             <li>
-              <Link href="/Graphic_Design" className="text-gray-700 transition hover:opacity-75"> Graphic Design </Link>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Marketing </a>
             </li>
 
             <li>
-              <Link to="/Digital_Marketing" className="text-gray-700 transition hover:opacity-75"> Digital Marketing </Link>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
+                Graphic Design
+              </a>
             </li>
 
             <li>
-              <Link href="/Presentation_Design" className="text-gray-700 transition hover:opacity-75"> Presentation Design</Link>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
+                App Development
+              </a>
             </li>
 
             <li>
-              <Link href="/Web_Design" className="text-gray-700 transition hover:opacity-75"> Web Design </Link>
-            </li>
-            <li>
-              <Link href="/Video_Editing" className="text-gray-700 transition hover:opacity-75"> Video Editing </Link>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
+                Web Development
+              </a>
             </li>
           </ul>
         </div>
 
         <div>
-          <p className="font-medium text-gray-900">Company</p>
+          <strong className="font-medium text-gray-900"> About </strong>
 
-          <ul className="mt-6 space-y-4 text-sm">
+          <ul className="mt-6 space-y-1">
             <li>
-              <Link to="/About" className="text-gray-700 transition hover:opacity-75"> About </Link>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> About </a>
             </li>
 
             <li>
-              <Link to="/Team"  className="text-gray-700 transition hover:opacity-75"> Meet the Team </Link>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Careers </a>
             </li>
 
             <li>
-              <Link to="/Reviews" className="text-gray-700 transition hover:opacity-75"> Accounts Review </Link>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> History </a>
             </li>
+
             <li>
-              <Link to="/Contact" className="text-gray-700 transition hover:opacity-75"> Contact </Link>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Our Team </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <strong className="font-medium text-gray-900"> Support </strong>
+
+          <ul className="mt-6 space-y-1">
+            <li>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> FAQs </a>
+            </li>
+
+            <li>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Contact </a>
+            </li>
+
+            <li>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Live Chat </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div className="mt-12 border-t border-gray-100 pt-12">
-      <div className="sm:flex sm:items-center sm:justify-between">
-        <ul className="flex flex-wrap gap-4 text-xs">
-          <li>
-            <a href="#" className="text-gray-500 transition hover:opacity-75"> Terms & Conditions </a>
-          </li>
+    <div className="mt-16 border-t border-gray-100 pt-8">
+      <p className="text-center text-xs/relaxed text-gray-500">
+        © Team Oli Ullah 2024. All rights reserved.
 
-          <li>
-            <a href="#" className="text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
-          </li>
-
-          <li>
-            <a href="#" className="text-gray-500 transition hover:opacity-75"> Cookies </a>
-          </li>
-        </ul>
-
-        <p className="mt-8 text-xs text-gray-500 sm:mt-0">
-          &copy; 2022. Company Name. All rights reserved.
-        </p>
-      </div>
+        
+      </p>
     </div>
   </div>
 </footer>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Footer;
