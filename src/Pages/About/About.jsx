@@ -4,11 +4,11 @@ import Education from '../../Components/About/Education';
 import Experience from '../../Components/About/Experience';
 
 const About = () => {
-    return (
+    return (<>
+    <DocumentTitle title='Oli Ullah | About Us '>
+    </DocumentTitle>
+    
         <div className='pt-10 '>
-            <DocumentTitle title='Graphicaloy | About'>
-
-            </DocumentTitle>
             
             <div className='mx-4 md:mx-20 lg:mx-44 my-10'>
 
@@ -34,9 +34,10 @@ const About = () => {
 
             <Education></Education>
             <Experience></Experience>
-
+            
             </div>
         </div>
+        </>
     );
 };
 

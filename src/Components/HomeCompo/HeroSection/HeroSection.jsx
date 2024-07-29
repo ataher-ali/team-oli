@@ -32,12 +32,12 @@ const HeroSection = () => {
               {/* <p className="text-lg text-gray-600 mb-12">Explore my work and skills.</p> */}
               <div className="flex justify-center gap-3 my-10 md:justify-start">
 
-                <Link to="/about" className="bg-slate-900 w-fit flex justify-center items-center gap-2 hover:bg-slate-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg">
+                <Link to="/about" className=" flex gap-4 justify-center items-center w-fit  px-6 py-4 bg-black text-white rounded-md shadow-md hover:bg-opacity-80">
                 <FaInfoCircle />
                 <span>About</span>
                 </Link>
 
-                <Link to="/about" className="border border-slate-900 flex items-center justify-center w-fit gap-2 hover:text-white hover:bg-slate-600 text-slate-800 font-bold py-3 px-6 rounded-lg shadow-lg">
+                <Link to="/about" className=" flex gap-4 justify-center items-center w-fit  px-6 py-4 bg-black text-white rounded-md shadow-md hover:bg-opacity-80">
                 <RiTeamFill />
                 <span> Meet Team</span>
                 </Link>

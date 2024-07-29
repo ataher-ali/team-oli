@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import BookMeeting from "../BookMeeting/BookMeeting";
 
 function Nav() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -19,16 +18,17 @@ function Nav() {
                   to="/"
                   className="flex gap-1 font-bold text-gray-700 items-center "
                 > 
-                  <span className="font-extrabold text-3xl" >Sah Oli Ullah</span>
+                <img className="h-10" src="../../../public/Sah Oliullah fainal.png" alt="" />
                 </Link>
               </div>
               {/* primary */}
               <div className="">
               <div className="hidden lg:flex items-center gap-8 ">
                 
+                <Link to='/product'> <h1 className="text-lg">Product </h1></Link>
+                <Link to='/service'> <h1 className="text-lg">Service </h1></Link>
                 <Link to='/about'> <h1 className="text-lg">About </h1></Link>
                 <Link to="/archive"> <h1 className="text-lg">Archive </h1></Link>
-                {/* <Link to='/pervices'> <h1 className="text-lg">Services </h1></Link> */}
                 <Link to="/team"> <h1 className="text-lg"> Team </h1></Link>
                 <Link to="/contact"> <h1 className="text-lg">Contact </h1></Link>
               </div>
@@ -70,14 +70,15 @@ function Nav() {
           <div className="px-8 flex justify-center text-xl">
             <div className="flex flex-col gap-8  font-bold tracking-wider">
               <Link onClick={() => setToggleMenu()} className="mt-4" to='/'>Home</Link>
+              <Link onClick={() => setToggleMenu()} to="/product">Product</Link>
+              <Link onClick={() => setToggleMenu()} to="/service">Service</Link>
               <Link onClick={() => setToggleMenu()} to='/about'>About</Link>
               <Link onClick={() => setToggleMenu()} to="/archive">Archive</Link>
-              {/* <Link onClick={() => setToggleMenu()} to="/services">Services</Link> */}
               <Link onClick={() => setToggleMenu()} to="/team">Teams</Link>
               <Link onClick={() => setToggleMenu()} to="/contact">Contact</Link>
             </div>
           </div>
-            <BookMeeting></BookMeeting>
+            
         </div>
       </nav>
     </div>

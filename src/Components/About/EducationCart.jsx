@@ -1,7 +1,7 @@
 import React from 'react';
 
-const EducationCart = (params) => {
-  const { institution, time,details } = params.element;
+const EducationCart = ({element}) => {
+  const { institution, time,details,degree } = element;
     return (
         <div>
                   <div className='flex justify-around my-4'> 
