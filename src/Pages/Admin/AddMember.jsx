@@ -33,7 +33,9 @@ const AddMember = () => {
   return (
     
     <div className="mt-40 mx-72">
+
 <form className="max-w-lg mx-auto p-4 space-y-6 bg-white shadow-md rounded-lg" onSubmit={handleSubmit(onSubmit)}>
+        <h1 className="text-3xl font-bold my-7 text-center">Add New Member</h1>
   <div className="flex p-4 gap-3 items-center ">
     <div className="w-72">
       <div className="relative w-full min-w-[200px] h-10">
