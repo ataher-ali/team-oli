@@ -25,12 +25,12 @@ function Nav() {
               <div className="">
               <div className="hidden lg:flex items-center gap-8 ">
                 
-                <Link to='/product'> <h1 className="text-lg">Product </h1></Link>
-                <Link to='/service'> <h1 className="text-lg">Service </h1></Link>
-                <Link to='/about'> <h1 className="text-lg">About </h1></Link>
-                <Link to="/archive"> <h1 className="text-lg">Archive </h1></Link>
-                <Link to="/team"> <h1 className="text-lg"> Team </h1></Link>
-                <Link to="/contact"> <h1 className="text-lg">Contact </h1></Link>
+                <Link to='/Product'> <h1 className="text-lg hover:font-bold">Product </h1></Link>
+                <Link to='/Service'> <h1 className="text-lg hover:font-bold">Service </h1></Link>
+                <Link to="/Team_Member"> <h1 className="text-lg hover:font-bold"> Team Member </h1></Link>
+                <Link to="/Archive"> <h1 className="text-lg hover:font-bold">Archive </h1></Link>
+                <Link to='/About'> <h1 className="text-lg hover:font-bold">About </h1></Link>
+                <Link to="/Contact"> <h1 className="text-lg hover:font-bold">Contact </h1></Link>
               </div>
               </div>
             </div>
@@ -67,15 +67,15 @@ function Nav() {
           className={`fixed z-40 w-full  bg-gray-100 overflow-hidden flex flex-col lg:hidden gap-12  origin-top duration-700 ${!toggleMenu ? "h-0" : "h-full"
             }`}
         >
-          <div className="px-8 flex justify-center text-xl">
-            <div className="flex flex-col gap-8  font-bold tracking-wider">
+          <div className="px-8 flex justify-center  text-xl">
+            <div className="flex flex-col gap-8 items-center font-bold tracking-wider">
               <Link onClick={() => setToggleMenu()} className="mt-4" to='/'>Home</Link>
-              <Link onClick={() => setToggleMenu()} to="/product">Product</Link>
-              <Link onClick={() => setToggleMenu()} to="/service">Service</Link>
-              <Link onClick={() => setToggleMenu()} to='/about'>About</Link>
-              <Link onClick={() => setToggleMenu()} to="/archive">Archive</Link>
-              <Link onClick={() => setToggleMenu()} to="/team">Teams</Link>
-              <Link onClick={() => setToggleMenu()} to="/contact">Contact</Link>
+              <Link onClick={() => setToggleMenu()} to="/Product">Product</Link>
+              <Link onClick={() => setToggleMenu()} to="/Service">Service</Link>
+              <Link onClick={() => setToggleMenu()} to="/Team_Member">Team Member</Link>
+              <Link onClick={() => setToggleMenu()} to="/Archive">Archive</Link>
+              <Link onClick={() => setToggleMenu()} to='/About'>About</Link>
+              <Link onClick={() => setToggleMenu()} to="/Contact">Contact</Link>
             </div>
           </div>
             

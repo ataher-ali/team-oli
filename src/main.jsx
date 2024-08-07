@@ -15,6 +15,8 @@ import Archive from './Pages/Archive/Archive.jsx';
 import { ThemeProvider } from "@material-tailwind/react";
 import Product from './Pages/Product/Product.jsx';
 import Service from './Pages/Service/Service.jsx';
+import AddMember from './Pages/Admin/AddMember.jsx';
+import MemberInfoCard from './Pages/Member Info Card/MemberInfoCard.jsx';
 
 
 const router = createBrowserRouter([
@@ -27,28 +29,38 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path:"/about",
+        path:"/About",
         element: <About></About>
       },
       {
-        path:"/contact",
+        path:"/Contact",
         element: <Contact></Contact>
       },
       {
-        path:"/team",
+        path:"/Team_Member",
         element: <Team></Team>
       },
       {
-        path:"/archive",
+        path: "/Member/:id",
+        element: <MemberInfoCard></MemberInfoCard> ,
+        loader: ({ params }) =>
+          fetch(`http://localhost:1010/member/${params.id}`),
+      },
+      {
+        path:"/Archive",
         element: <Archive></Archive>
       },
       {
-        path:"/product",
+        path:"/Product",
         element: <Product></Product>
       },
       {
         path:"/Service",
         element: <Service></Service>
+      },
+      {
+        path:"/Add_member",
+        element: <AddMember></AddMember>
       }
 
     ]

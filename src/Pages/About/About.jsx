@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import DocumentTitle from 'react-document-title';
 import Education from '../../Components/About/Education';
 import Experience from '../../Components/About/Experience';
 
 const About = () => {
+
+
     return (<>
     <DocumentTitle title='Oli Ullah | About Us '>
     </DocumentTitle>
