@@ -46,7 +46,7 @@ const HeroSection = () => {
                 <Link to=""className='  hover:opacity-80' ><FaLinkedin size={36}/></Link>
                 <Link to=""className='  hover:opacity-80' ><FaFacebookSquare size={36}/></Link>
                 <Link to=""className='  hover:opacity-80' ><FaBehanceSquare size={36}/></Link>
-                <Link to=""className='   hover:opacity-80' ><MdMail size={38}/></Link>
+                <Link to="mailto:saholiullah1995@gmail.com"className='   hover:opacity-80' ><MdMail size={38}/></Link>
               </div>
             </div>
           </div>

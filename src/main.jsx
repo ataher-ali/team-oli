@@ -17,6 +17,8 @@ import Product from './Pages/Product/Product.jsx';
 import Service from './Pages/Service/Service.jsx';
 import AddMember from './Pages/Admin/AddMember.jsx';
 import MemberInfoCard from './Pages/Member Info Card/MemberInfoCard.jsx';
+import Education from './Components/About/Education.jsx';
+import AddEducation from './Pages/Admin/AddEducation.jsx';
 
 
 const router = createBrowserRouter([
@@ -44,7 +46,7 @@ const router = createBrowserRouter([
         path: "/Member/:id",
         element: <MemberInfoCard></MemberInfoCard> ,
         loader: ({ params }) =>
-          fetch(`http://localhost:1010/member/${params.id}`),
+          fetch(`http://localhost:3000/member/${params.id}`),
       },
       {
         path:"/Archive",
@@ -61,6 +63,10 @@ const router = createBrowserRouter([
       {
         path:"/Add_member",
         element: <AddMember></AddMember>
+      },
+      {
+        path:"/Add_Education",
+        element: <AddEducation></AddEducation>
       }
 
     ]

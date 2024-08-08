@@ -4,7 +4,7 @@ import EducationCart from './EducationCart';
 const Education = () => {
 
   const [useEduData,setEduData]=useState([])
-  let api = `http://localhost:1010/education`
+  let api = `http://localhost:3000/education`
   useEffect(() => {
     fetch(api)
     .then(res => res.json())

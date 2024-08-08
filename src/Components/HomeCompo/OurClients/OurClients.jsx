@@ -8,7 +8,7 @@ const OurClients = () => {
         <h2 class="mb-8 lg:mb-10 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">Successful Projects</h2>
         <div class="grid h-fit grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-7  dark:text-gray-400">
             <a href="https://ledp.ictd.gov.bd/" class="flex justify-center items-center">            
-                <img class="p-3  grayscale hover:grayscale-0" src="https://ledp.ictd.gov.bd/new/images/logo.png" alt="" />          
+                <img class="p-3  grayscale hover:grayscale-0" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYPI5fvy6zF1DtkLNWUAw4H98mWveTqxIXGg&s" alt="" />          
             </a>
             <a href="" class="flex justify-center items-center">
                 <img class="p-3  grayscale hover:grayscale-0" src="https://sof.edu.bd/assets/img/logo.png" alt="" />                                              
